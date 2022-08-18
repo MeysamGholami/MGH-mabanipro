@@ -40,3 +40,13 @@ prev.addEventListener('click',function(e){
     item[n].style.display = 'block';
     dot[n].classList.add('active');
 })
+setInterval(function(){
+    n++;
+    if(n > item.length - 1){
+        n = 0;
+    }
+    disno();
+    no_active();
+    item[n].style.display = 'block';
+    dot[n].classList.add('active');
+},3000)
