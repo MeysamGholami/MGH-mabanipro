@@ -45,3 +45,10 @@ header nav .nav-left .reglog-btn a i{
 .slider .slides .item img{
     width: 100%;
 }
+.slider .slides .item{
+    position: relative;
+    display: none;
+}
+.slider .slides .active{
+    display: block;
+}
