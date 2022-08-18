@@ -28,3 +28,15 @@ next.addEventListener('click',function(e){
     item[n].style.display = 'block';
     dot[n].classList.add('active');
 })
+
+prev.addEventListener('click',function(e){
+    e.preventDefault();
+    n--;
+    if(n < 0){
+        n = item.length - 1;
+    }
+    disno();
+    no_active();
+    item[n].style.display = 'block';
+    dot[n].classList.add('active');
+})
