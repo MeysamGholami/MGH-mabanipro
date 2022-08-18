@@ -1,6 +1,6 @@
 @font-face{
     font-family: iran;
-    src: url(./fonts/iran.ttf);
+    src: url(../fonts/iran.ttf);
 }
 *{
     direction: rtl;
