@@ -11,6 +11,12 @@ function disno(){
     }
 }
 
+function no_active(){
+    for( i = 0 ; i<dot.length ; i++){
+        dot[i].classList.remove('active');
+    }
+}
+
 next.addEventListener('click',function(e){
     e.preventDefault();
     n++;
@@ -18,5 +24,7 @@ next.addEventListener('click',function(e){
         n = 0;
     }
     disno();
+    no_active();
     item[n].style.display = 'block';
+    dot[n].classList.add('active');
 })
