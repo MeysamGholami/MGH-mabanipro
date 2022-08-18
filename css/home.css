@@ -41,6 +41,9 @@ header nav .nav-left .reglog-btn a i{
 .slider{
     position: relative;
     font-size: 1em;
+    box-shadow: 0 0 8px rgb(29, 27, 27);
+    background-color: rgba(85, 198, 151, 0.5);
+    border-radius:10px;
 }
 .slider .slides .item img{
     width: 100%;
@@ -55,26 +58,10 @@ header nav .nav-left .reglog-btn a i{
 .slider .slides .item span{
     position: absolute;
     right: 10%;
+    display: flex;
     top: 40%;
     font-size: 1.5em;
     color: #333;
-}
-
-.slider .buttons{
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    z-index: 1;
-    user-select: none;
-}
-.slider .buttons i{
-    color: rgba(255, 255, 255, 0.4);
-    margin-right: 4px;
-    cursor: pointer;
-}
-.slider .buttons i:hover{
-    color: rgba(255, 255, 255);
-    
 }
 .slider .prev,.next{
     color: rgba(255, 235, 205, 0.8);
@@ -88,4 +75,18 @@ header nav .nav-left .reglog-btn a i{
 }
 .next{
     left: 5px;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.dots{
+    text-align: center;
+}
+.dot.active{
+    background-color: #333;
+    border: solid rgba(255, 0, 0, 0.5) 2px;
 }
