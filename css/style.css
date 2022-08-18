@@ -2,3 +2,14 @@
     font-family: iran;
     src: url(./fonts/iran.ttf);
 }
+*{
+    direction: rtl;
+    font-family: iran;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
