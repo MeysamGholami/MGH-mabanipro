@@ -59,3 +59,15 @@ header nav .nav-left .reglog-btn a i{
     font-size: 1.5em;
     color: #333;
 }
+.slider .buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+    user-select: none;
+}
+.slider .buttons i{
+    color: rgba(255, 255, 255);
+    margin-right: 4px;
+    cursor: pointer;
+}
