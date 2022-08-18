@@ -1,6 +1,8 @@
 header{
     font-size: 1em;
+
 }
+/*nav section*/
 header nav{
     display: flex;
     justify-content: space-between;
@@ -33,4 +35,13 @@ header nav .nav-left .reglog-btn a{
 header nav .nav-left .reglog-btn a i{
     margin: 8px;
     color: #445;
+}
+
+/* slider section */
+.slider{
+    position: relative;
+    font-size: 1em;
+}
+.slider .slides .item img{
+    width: 100%;
 }
