@@ -76,3 +76,16 @@ header nav .nav-left .reglog-btn a i{
     color: rgba(255, 255, 255);
     
 }
+.slider .prev,.next{
+    color: rgba(255, 235, 205, 0.8);
+    font-size: 2.5em;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.prev{
+    right: 5px;
+}
+.next{
+    left: 5px;
+}

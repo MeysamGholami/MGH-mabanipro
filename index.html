@@ -6,44 +6,47 @@
     <link rel="stylesheet" href="css/home.css">
     <script src="https://kit.fontawesome.com/2ea1acfdd2.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <script src="./js/main.js"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="nav-right">
-                <a href=""><i class="far fa-user"></i></a>
-                <a href=""><i class="fa-solid fa-house"></i></a>
-                <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
-                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            </div>
-            <div class="nav-left">
-                <div class="reglog-btn">
-                    <i class="fa-solid fa-user"></i>
-                    <a href="#">ثبت نام / ورود</a>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-right">
+                    <a href=""><i class="far fa-user"></i></a>
+                    <a href=""><i class="fa-solid fa-house"></i></a>
+                    <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
-            </div>
-        </nav>
-        <section class="slider">
-            <div class="slides">
-                <div class="item active" id="slide1">
-                    <img src="./img/s2.jpg" alt="">
-                    <span style="color:rgba(255, 255, 255, 0.7) ;">کیفیت صدایی که همیشه<br/>دنبالش بودی اینجاست</span>
+                <div class="nav-left">
+                    <div class="reglog-btn">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">ثبت نام / ورود</a>
+                    </div>
                 </div>
-                <div class="item" id="slide2">
-                    <img src="./img/s1.jpg" alt="">
-                    <span>رویاهاتو باصدای بلند گوش بده</span>
+            </nav>
+            <section class="slider">
+                <div class="slides">
+                    <div class="item active" id="slide1">
+                        <img src="./img/s2.jpg" alt="">
+                        <span style="color:rgba(255, 255, 255, 0.7) ;">کیفیت صدایی که همیشه<br/>دنبالش بودی اینجاست</span>
+                    </div>
+                    <div class="item" id="slide2">
+                        <img src="./img/s1.jpg" alt="">
+                        <span>رویاهاتو باصدای بلند گوش بده</span>
+                    </div>
+                    <div class="item" id="slide3">
+                        <img src="./img/s3.jpg" alt="">
+                        <span>آهنگ هارو زنده تر از چیزی که هستن گوش بده</span>
+                    </div>
                 </div>
-                <div class="item" id="slide3">
-                    <img src="./img/s3.jpg" alt="">
-                    <span>آهنگ هارو زنده تر از چیزی که هستن گوش بده</span>
+                <div class="buttons">
+                    <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                    <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                    <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
                 </div>
-            </div>
-            <div class="buttons">
-                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
-                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
-                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
-            </div>
-        </section>
-    </header>
-</body>
+                <a href="#" class="prev">&#10094;</a>
+                <a href="#" class="next">&#10095;</a>
+            </section>
+        </header>
+    </body>
 </html>
