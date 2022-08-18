@@ -42,7 +42,7 @@ header nav .nav-left .reglog-btn a i{
     position: relative;
     font-size: 1em;
     box-shadow: 0 0 8px rgb(29, 27, 27);
-    background-color: rgba(85, 198, 151, 0.5);
+    background-color: rgba(85, 198, 151, 0.25);
     border-radius:10px;
 }
 .slider .slides .item img{
