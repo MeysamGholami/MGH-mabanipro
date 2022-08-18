@@ -27,9 +27,10 @@ header nav .nav-left .reglog-btn{
 }
 header nav .nav-left .reglog-btn a{
     color: #665;
-    margin: 0px 10px;
+    margin: 5px 10px 0px 10px;
+    font-size: 0.9em;
 }
 header nav .nav-left .reglog-btn a i{
-    margin: 6px;
+    margin: 8px;
     color: #445;
 }
