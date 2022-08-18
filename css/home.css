@@ -1,0 +1,35 @@
+header{
+    font-size: 1em;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+}
+header nav .nav-right a{
+    color: #445;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    font-size: 1.2em;
+}
+header nav .nav-left .reglog-btn{
+    border: solid 1px #665;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .nav-left .reglog-btn a{
+    color: #665;
+    margin: 0px 10px;
+}
+header nav .nav-left .reglog-btn a i{
+    margin: 6px;
+    color: #445;
+}
