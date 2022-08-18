@@ -52,3 +52,10 @@ header nav .nav-left .reglog-btn a i{
 .slider .slides .active{
     display: block;
 }
+.slider .slides .item span{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+    color: #333;
+}
