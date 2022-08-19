@@ -28,18 +28,21 @@ header nav .nav-left .reglog-btn{
     justify-content: center;
     cursor: pointer;
     font-weight: bold;
-    transition: 1s;
 }
 header nav .nav-left .reglog-btn:hover{
-    border: solid 3px rgba(0, 0, 0, 0.8);
+    border: solid 3px rgba(66, 66, 66, 0.8);
     transition: 1s;
     background-color: rgba(127, 255, 212, 0.644);
 
 }
 header nav .nav-left .reglog-btn a{
     color: #665;
-    margin: 5px 10px 5px 10px;
+    margin: 9px 8px 3px 10px;
     font-size: 0.9em;
+}
+header nav .nav-left .reglog-btn a:hover{
+    color: #000;
+    transition: 1s;
 }
 header nav .nav-left .reglog-btn a i{
     margin: 8px;
@@ -155,12 +158,16 @@ header nav .nav-left .reglog-btn a i{
     align-items: center;
     padding: 5px 15px;
 }
-.sh-card .buttons .right{
-    
-}
 .sh-card .buttons .right .price{
     color: #665;
     font-weight: bold;
+    transition: 1s;
+}
+.sh-card .buttons .right .price:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 1s;
+    
 }
 .sh-card .buttons .left{
     display: flex;
@@ -172,7 +179,8 @@ header nav .nav-left .reglog-btn a i{
     justify-content: space-between;
     background-color: #219250;
     color: #fff;
-    width: 35px;
+    width: 40px;
+    height: 40px;
     padding: 8px 10px;
     border-radius: 25px;
     cursor: pointer;
@@ -193,7 +201,8 @@ header nav .nav-left .reglog-btn a i{
 }
 .sh-card .buttons .left .extend-btn .b-icon1,.b-icon2{
     color: rgb(255, 255, 255);
-    padding-top: 3px;
+    padding: 8px 3px 0 0;
+    font-size: 1.1em;
     align-items: center;
 }
 .sh-card .buttons .left .extend-btn .b-icon1:hover{
