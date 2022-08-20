@@ -221,4 +221,22 @@ header nav .nav-left .reglog-btn a i{
     color: rgb(0, 0, 0);
     transition: 0.2s;
 }
+/*offer sec*/
+.soffer{
+    padding: 18px;
+    font-size: 1em;
 
+}
+.soffer .soffer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin:0px 10px ;
+}
+.soffer-box .soffer-title{
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius:0px 0px 20px 20px ;
+}
