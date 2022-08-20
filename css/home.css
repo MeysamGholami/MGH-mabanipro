@@ -247,3 +247,7 @@ header nav .nav-left .reglog-btn a i{
 .soffer .soffer-box .mbody .image-container img{
     width: 100%;
 }
+.soffer-box .mbody .content{
+    padding: 30px 5px;
+    
+}
