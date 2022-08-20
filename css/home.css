@@ -258,10 +258,15 @@ header nav .nav-left .reglog-btn a i{
     
 }
 .soffer-box .mbody .content .p-row .price{
-    margin-left: 50px;
+    margin: 0px 0px 42px 50px;
     color: #445;
     font-size: 1.2em;
-    
+    font-weight: bold;
+}
+.soffer-box .mbody .content .p-row .price p{
+    color:brown;
+    font-size: 0.8em;
+    text-decoration:line-through ;
 }
 .soffer-box .mbody .content .p-row .off {
     color: #fff;
@@ -269,4 +274,20 @@ header nav .nav-left .reglog-btn a i{
     padding:10px 20px 5px 20px ;
     border-radius: 25px;
     
+}
+.soffer-box .mbody .content .title{
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #445;
+    font-size: 1.4em;
+
+
+}
+.soffer-box .mbody .content .counter-d{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
 }
