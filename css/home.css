@@ -251,3 +251,22 @@ header nav .nav-left .reglog-btn a i{
     padding: 30px 5px;
     
 }
+.soffer-box .mbody .content .p-row{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.soffer-box .mbody .content .p-row .price{
+    margin-left: 50px;
+    color: #445;
+    font-size: 1.2em;
+    
+}
+.soffer-box .mbody .content .p-row .off {
+    color: #fff;
+    background-color: #e74c3c;
+    padding:10px 20px 5px 20px ;
+    border-radius: 25px;
+    
+}
