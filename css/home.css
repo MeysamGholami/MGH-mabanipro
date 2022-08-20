@@ -239,6 +239,7 @@ header nav .nav-left .reglog-btn a i{
     padding: 8px 30px;
     display: inline-block;
     border-radius:0px 0px 20px 20px ;
+    user-select: none;
 }
 .soffer .soffer-box .mbody .image-container{
     text-align: center;
@@ -262,21 +263,24 @@ header nav .nav-left .reglog-btn a i{
     color: #445;
     font-size: 1.2em;
     font-weight: bold;
+    user-select: none;
 }
 .soffer-box .mbody .content .p-row .price p{
     color:brown;
     font-size: 0.8em;
     text-decoration:line-through ;
+    user-select: none;
 }
 .soffer-box .mbody .content .p-row .off {
     color: #fff;
     background-color: #e74c3c;
     padding:10px 20px 5px 20px ;
     border-radius: 25px;
+    user-select: none;
     
 }
 .soffer-box .mbody .content .title{
-    margin: 40px 0px;
+    margin: 5px 0px 15px 0px;
     font-weight: bold;
     color: #445;
     font-size: 1.4em;
@@ -290,6 +294,7 @@ header nav .nav-left .reglog-btn a i{
     font-weight: bold;
     color: #666;
     font-size: 1.5em;
+    user-select: none;
 }
 .soffer-box .mbody .content .rtime{
     color: #775;
