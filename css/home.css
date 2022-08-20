@@ -291,9 +291,9 @@ header nav .nav-left .reglog-btn a i{
     color: #666;
     font-size: 1.5em;
 }
-.soffer-box .mbody .content .r-time{
+.soffer-box .mbody .content .rtime{
     color: #775;
-    font-size: 00.8em;
+    font-size: 0.8em;
 }
 .banner{
     text-align: center;
@@ -302,4 +302,5 @@ header nav .nav-left .reglog-btn a i{
 .banner img{
     border-radius: 5px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    width: 80%;
 }
