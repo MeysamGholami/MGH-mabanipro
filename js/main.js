@@ -50,3 +50,20 @@ setInterval(function(){
     item[n].style.display = 'block';
     dot[n].classList.add('active');
 },3000)
+
+
+let rtime = 172800;
+
+function setTime(){
+    if(rtime == 0) return;
+    let h = Math.floor(rtime/3600);
+    let m = Math.floor((rtime%3600)/60);
+    let s = (rtime%3600)%60;
+    document.querySelector('#hou').innerHTML = h
+    document.querySelector('#min').innerHTML = m
+    document.querySelector('#sec').innerHTML = s
+}
+setInterval(() => {
+    rtime -= 1;
+    setTime()
+}, 1000);
