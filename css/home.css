@@ -347,4 +347,6 @@ footer .right .title{
 }
 footer .right .des{
     color: rgba(255, 255, 255, 0.7);
+    line-height: 1.9;
+    font-size: 00.9em;
 }
