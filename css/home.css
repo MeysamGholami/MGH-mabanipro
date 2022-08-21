@@ -337,3 +337,14 @@ footer{
 footer .bottom{
     background-color: #212425;
 }
+footer .right{
+    padding: 40px;
+}
+footer .right .title{
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 1.2em;
+}
+footer .right .des{
+    color: rgba(255, 255, 255, 0.7);
+}
