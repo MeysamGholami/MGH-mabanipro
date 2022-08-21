@@ -328,3 +328,12 @@ header nav .nav-left .reglog-btn a i{
     border-radius: 6px;
     color: #445;
 }
+
+/* footer */
+footer{
+    background-color: #4e5558;
+    font-size: 1em;
+}
+footer .bottom{
+    background-color: #212425;
+}
