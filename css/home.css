@@ -318,3 +318,13 @@ header nav .nav-left .reglog-btn a i{
     width: 70% !important;
     margin: auto;
 }
+.dragble-list .title{
+    padding:20px 0px 25px 0px;
+}
+.dragble-list .title span{
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom:2px solid #e74c3c ;
+    border-radius: 6px;
+    color: #445;
+}
