@@ -336,6 +336,9 @@ footer{
 }
 footer .bottom{
     background-color: #212425;
+    text-align: center;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.8);
 }
 footer .right{
     padding: 40px;
@@ -349,4 +352,39 @@ footer .right .des{
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.9;
     font-size: 00.9em;
+}
+footer .left{
+    padding: 40px;
+}
+footer .left .title{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+footer .left .socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+footer .left .socials a{
+    color: #fff;
+    font-size: 1.4em;
+    transition: 0.8s;
+}
+footer .left .socials a:hover{
+    color: #cf4030;
+    transition: 0.8s;
+    animation: scale 0.8s;
+}
+@keyframes scale{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 2;
+    }
+    100%{
+        scale: 1;
+    }
 }
