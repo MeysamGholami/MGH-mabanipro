@@ -1,24 +1,14 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
-body{
-    background-color: #ded9e3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin:-18px 0px 0px 50px ;
-    height:900px ;
-}
-h1{
-    font-weight: bold;
-    margin: 0;
-}
-p{
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 0.5px;
-    margin: 20px 0px 30px;
-    line-height: 20px;
+
+body {
+   background: #7577bb; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  margin: -20px 0 0 50px;
 }
