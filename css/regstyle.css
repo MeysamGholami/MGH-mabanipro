@@ -66,3 +66,22 @@ form {
   transition: transform 0.6s ease-in-out;
   z-index: 100;
 }
+h1.h1{
+  font-weight: bold;
+  margin: 50px 0px 0px 0px;
+  color: rgb(0, 0, 0);
+}
+.social-container {
+  margin: 0px 0px 20px 0px;
+}
+
+.social-container a {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
