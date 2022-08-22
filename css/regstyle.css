@@ -84,4 +84,19 @@ h1.h1{
   margin: 0 5px;
   height: 40px;
   width: 40px;
+  transition: 0.5s;
+}
+.social:hover {
+  color: #fff;
+  background-color: #a07c2c;
+  transition: 0.5s;
+}  
+span{
+  font-size: 12px;
+  color: rgb(154, 154, 154);
+}  
+a {
+  color: #333;
+  font-size: 14px;
+  margin:15px 0;
 }
